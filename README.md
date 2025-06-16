@@ -1,3 +1,12 @@
+![요약](images/test1.png)
+![요약](images/test2.png)
+![요약](images/test3.png)
+![요약](images/test4.png)
+![요약](images/test5.png)
+![요약](images/test6.png)
+![요약](images/test7.png)
+
+
 ## **Amazon Personalize와 Amazon OpenSearch Service를 활용한 AI 기반 개인화 경험 구현**
 
 [OpenSearch](https://opensearch.org/)는 시맨틱 검색, 로그 분석, 보안 모니터링 및 관찰 가능성 애플리케이션을 위한 확장 가능하고 유연하며 확장 가능한 오픈 소스 소프트웨어 제품군으로, Apache 2.0 라이선스로 제공됩니다. Amazon OpenSearch Service는 AWS 클라우드에서 OpenSearch를 쉽게 배포, 확장 및 운영할 수 있게 해주는 완전 관리형 서비스입니다.
@@ -24,6 +33,18 @@ MovieLens + IMDb 데이터셋
 3. Amazon OpensSearch 구성 - 2.Configure_Amazon_OpenSearch.ipynb
 4. Personalize 플러그인 테스트 - 3.Testing.ipynb
 5. 정리 - 4.Clean_Up.ipynb
+
+### 테스트 결과
+
+#### 사용자 행동 분석
+User12의 최근 시청 기록을 분석한 결과, 사용자가 드라마, 로맨스, 스릴러 영화 장르에 특별한 관심을 보이는 것으로 확인되었습니다.
+
+![User12의 시청 기록](images/picture1.png)
+
+#### 개인화된 검색 결과
+"Tom Cruise" 검색 시, 일반 검색 결과와 비교했을 때 개인화된 검색 결과에서는 사용자가 선호하는 드라마, 로맨스, 스릴러 장르의 톰 크루즈 영화가 상위에 배치되는 것을 확인할 수 있습니다.
+
+![Tom Cruise 검색 결과 비교](images/picture2.png)
 
 ### 작업 환경 배포
 
